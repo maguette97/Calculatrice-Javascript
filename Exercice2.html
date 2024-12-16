@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+      <div class="center">
+        <h1>Calculatrice</h1>
+        <div class="inputbox">
+          <input id="number1" type="text" />
+           <span>Première donnée</span>    
+        </div>
+        <div class="inputbox">
+          <input id="number2"  type="text" /> 
+          <span>Deuxième donnée</span>
+        </div>
+        <div class="inputbox">
+          <select class="input" id="operators">
+            <option value="+">+</option> 
+            <option value="-">-</option> 
+            <option value="x">x</option> 
+            <option value="/">/</option>
+          </select>
+          
+            <span>Opération</span>
+        </div>
+        <div class="inputbox">
+          <input id="result"  type="text" />
+          
+          <span>Résultat</span>
+        </div>
+        <button type="text" class="submit" onclick="calcul()">Calculer</button>
+        <button type="text" class="submit" onclick="comparaison()">Afficher Le Plus Grand</button>
+      </div>
+    <script src="calcul.js" type="text/javascript" async defer></script>
+    <script src="comparaison.js" type="text/javascript" async defer></script>
+  </body>
+</html>
